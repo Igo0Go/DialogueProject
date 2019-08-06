@@ -162,6 +162,7 @@
     <Compile Include="Assets\Scripts\AgentsController.cs" />
     <Compile Include="Assets\Scripts\AnimTranslator.cs" />
     <Compile Include="Assets\Scripts\CameraContainer.cs" />
+    <Compile Include="Assets\Scripts\ControllerActivator.cs" />
     <Compile Include="Assets\Scripts\ControllerProcessor.cs" />
     <Compile Include="Assets\Scripts\DialogueSystem\ConditionPack.cs" />
     <Compile Include="Assets\Scripts\DialogueSystem\DialogueCharacter.cs" />
@@ -232,19 +233,19 @@
     <None Include="Assets\Prefabs\Decor\MegaPack1Lite\SciFiPack1\README.txt" />
     <None Include="Assets\Prefabs\Decor\SampleScenes\Shaders\Skybox-Procedural.shader" />
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/MyPrograms/Unity/Projects/Dialogue Project/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/MyPrograms/Unity/Projects/DialogueBufer/Dialogue Project/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>C:/MyPrograms/Unity/Projects/Dialogue Project/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>C:/MyPrograms/Unity/Projects/DialogueBufer/Dialogue Project/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>C:/MyPrograms/Unity/Projects/Dialogue Project/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>C:/MyPrograms/Unity/Projects/DialogueBufer/Dialogue Project/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/MyPrograms/Unity/Projects/Dialogue Project/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/MyPrograms/Unity/Projects/DialogueBufer/Dialogue Project/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
-      <HintPath>C:/MyPrograms/Unity/Projects/Dialogue Project/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+      <HintPath>C:/MyPrograms/Unity/Projects/DialogueBufer/Dialogue Project/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -448,13 +449,13 @@
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.14f1/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
-      <HintPath>C:/MyPrograms/Unity/Projects/Dialogue Project/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
+      <HintPath>C:/MyPrograms/Unity/Projects/DialogueBufer/Dialogue Project/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>C:/MyPrograms/Unity/Projects/Dialogue Project/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
+      <HintPath>C:/MyPrograms/Unity/Projects/DialogueBufer/Dialogue Project/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
-      <HintPath>C:/MyPrograms/Unity/Projects/Dialogue Project/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
+      <HintPath>C:/MyPrograms/Unity/Projects/DialogueBufer/Dialogue Project/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.14f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
