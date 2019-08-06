@@ -1,0 +1,1301 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a58d99dbc59dad04c8d26b8930026412, type: 3}
+  m_Name: NestyScene
+  m_EditorClassIdentifier: 
+  sceneName: 
+  nodes:
+  - index: 0
+    hide: 0
+    _type: 0
+    endNode: 0
+    _leftToRight: 1
+    previousNodesNumbers: 
+    transformRect:
+      serializedVersion: 2
+      x: 13
+      y: 10
+      width: 150
+      height: 50
+    _colorInEditor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    _leftPointOffset: {x: 0, y: 21}
+    character: {fileID: 11400000, guid: 763ffcfb3c28dfe4f87c41c22af45294, type: 2}
+    clip: {fileID: 8300000, guid: 989a440e82a09b0429a89b10c9c083f5, type: 3}
+    animType: 0
+    camPositionNumber: 0
+    replicText: "\u0410\u0441\u0442\u044F, \u0437\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439!
+      \u041A\u043E\u043B\u0434\u0443\u0435\u0448\u044C \u043D\u0430\u0434 \u0443\u043B\u0438\u043A\u0430\u043C\u0438?"
+    _rightPointOffset: {x: 130, y: 21}
+    nextNodesNumbers: 01000000
+    _exitPointsOffset: []
+    condition: {fileID: 0}
+    positiveNumber: 0
+    negativeNumber: 0
+    checkType: 0
+    conditionNumber: 0
+    checkBoolValue: 0
+    checkIntValue: 0
+    _positiveExitPointOffset: {x: 0, y: 0}
+    _negativeExitPointOffset: {x: 0, y: 0}
+    reactorsNumbers: 
+    messageText: 
+    eventTime: 0
+    changeCondition: 0
+    inSceneInvoke: 0
+    isMessage: 0
+    changeBoolValue: 0
+    addIntValue: 0
+    eventCamPositionNumber: 0
+  - index: 1
+    hide: 0
+    _type: 0
+    endNode: 0
+    _leftToRight: 1
+    previousNodesNumbers: 00000000
+    transformRect:
+      serializedVersion: 2
+      x: 199
+      y: 11
+      width: 150
+      height: 50
+    _colorInEditor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    _leftPointOffset: {x: 0, y: 21}
+    character: {fileID: 11400000, guid: 88ab9e4de68f6ae459559964f9b105b9, type: 2}
+    clip: {fileID: 8300000, guid: 41c902dd4d76c2b478e9aeba67aed83b, type: 3}
+    animType: 0
+    camPositionNumber: 1
+    replicText: "\u0422\u0435\u0431\u0435 \u0448\u0435\u0444 \u0437\u0430\u044F\u0432\u043B\u0435\u043D\u0438\u0435
+      \u043D\u0430 \u0448\u0430\u0431\u0430... \u043D\u0430 \u043E\u0442\u043F\u0443\u0441\u043A
+      \u043F\u043E\u0434\u043F\u0438\u0441\u0430\u043B?"
+    _rightPointOffset: {x: 130, y: 21}
+    nextNodesNumbers: 02000000
+    _exitPointsOffset: []
+    condition: {fileID: 0}
+    positiveNumber: 0
+    negativeNumber: 0
+    checkType: 0
+    conditionNumber: 0
+    checkBoolValue: 0
+    checkIntValue: 0
+    _positiveExitPointOffset: {x: 0, y: 0}
+    _negativeExitPointOffset: {x: 0, y: 0}
+    reactorsNumbers: 
+    messageText: 
+    eventTime: 0
+    changeCondition: 0
+    inSceneInvoke: 0
+    isMessage: 0
+    changeBoolValue: 0
+    addIntValue: 0
+    eventCamPositionNumber: 0
+  - index: 2
+    hide: 0
+    _type: 0
+    endNode: 0
+    _leftToRight: 1
+    previousNodesNumbers: 01000000
+    transformRect:
+      serializedVersion: 2
+      x: 388
+      y: 10
+      width: 150
+      height: 50
+    _colorInEditor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    _leftPointOffset: {x: 0, y: 21}
+    character: {fileID: 11400000, guid: 0dedc155e0a6c7c4aacf4f090ae24879, type: 2}
+    clip: {fileID: 8300000, guid: 0719937a89ddb9048ac1e9056ce05894, type: 3}
+    animType: 3
+    camPositionNumber: 2
+    replicText: "\u041E\u0447\u0435\u043D\u044C \u0441\u043C\u0435\u0448\u043D\u043E!
+      \u041D\u0435\u0442, \u043D\u0435 \u043F\u043E\u0434\u043F\u0438\u0441\u0430\u043B."
+    _rightPointOffset: {x: 130, y: 21}
+    nextNodesNumbers: 03000000
+    _exitPointsOffset: []
+    condition: {fileID: 0}
+    positiveNumber: 0
+    negativeNumber: 0
+    checkType: 0
+    conditionNumber: 0
+    checkBoolValue: 0
+    checkIntValue: 0
+    _positiveExitPointOffset: {x: 0, y: 0}
+    _negativeExitPointOffset: {x: 0, y: 0}
+    reactorsNumbers: 
+    messageText: 
+    eventTime: 0
+    changeCondition: 0
+    inSceneInvoke: 0
+    isMessage: 0
+    changeBoolValue: 0
+    addIntValue: 0
+    eventCamPositionNumber: 0
+  - index: 3
+    hide: 0
+    _type: 0
+    endNode: 0
+    _leftToRight: 1
+    previousNodesNumbers: 02000000
+    transformRect:
+      serializedVersion: 2
+      x: 571
+      y: 7
+      width: 150
+      height: 50
+    _colorInEditor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    _leftPointOffset: {x: 0, y: 21}
+    character: {fileID: 11400000, guid: 0dedc155e0a6c7c4aacf4f090ae24879, type: 2}
+    clip: {fileID: 8300000, guid: 494586ed2609e854ba88fe996b802306, type: 3}
+    animType: 0
+    camPositionNumber: 2
+    replicText: "\u0418... \u044F \u0442\u0443\u0442 \u043A\u043E\u0435-\u0447\u0442\u043E
+      \u043D\u0430\u0448\u043B\u0430. \u0427\u0442\u043E \u0432\u0430\u043C \u0438\u043D\u0442\u0435\u0440\u0435\u0441\u043D\u0435\u0435?
+      \u041C\u0435\u043B, \u0441\u0442\u0430\u043A\u0430\u043D\u0447\u0438\u043A \u0438\u0437
+      \u043F\u043E\u0434 \u043A\u043E\u0444\u0435..."
+    _rightPointOffset: {x: 130, y: 21}
+    nextNodesNumbers: 04000000
+    _exitPointsOffset: []
+    condition: {fileID: 0}
+    positiveNumber: 0
+    negativeNumber: 0
+    checkType: 0
+    conditionNumber: 0
+    checkBoolValue: 0
+    checkIntValue: 0
+    _positiveExitPointOffset: {x: 0, y: 0}
+    _negativeExitPointOffset: {x: 0, y: 0}
+    reactorsNumbers: 
+    messageText: 
+    eventTime: 0
+    changeCondition: 0
+    inSceneInvoke: 0
+    isMessage: 0
+    changeBoolValue: 0
+    addIntValue: 0
+    eventCamPositionNumber: 0
+  - index: 4
+    hide: 0
+    _type: 0
+    endNode: 0
+    _leftToRight: 1
+    previousNodesNumbers: 03000000
+    transformRect:
+      serializedVersion: 2
+      x: 758
+      y: 9
+      width: 150
+      height: 50
+    _colorInEditor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    _leftPointOffset: {x: 0, y: 21}
+    character: {fileID: 11400000, guid: 88ab9e4de68f6ae459559964f9b105b9, type: 2}
+    clip: {fileID: 8300000, guid: 58a1060be3f46c048bdb68e011383c86, type: 3}
+    animType: 0
+    camPositionNumber: 1
+    replicText: "\u041A\u043E\u0433\u0434\u0430 \u043D\u0430\u043C \u043F\u043E\u0434\u043F\u0438\u0448\u0443\u0442
+      \u0437\u0430\u044F\u0432\u043B\u0435\u043D\u0438\u0435..."
+    _rightPointOffset: {x: 130, y: 21}
+    nextNodesNumbers: 05000000
+    _exitPointsOffset: []
+    condition: {fileID: 0}
+    positiveNumber: 0
+    negativeNumber: 0
+    checkType: 0
+    conditionNumber: 0
+    checkBoolValue: 0
+    checkIntValue: 0
+    _positiveExitPointOffset: {x: 0, y: 0}
+    _negativeExitPointOffset: {x: 0, y: 0}
+    reactorsNumbers: 
+    messageText: 
+    eventTime: 0
+    changeCondition: 0
+    inSceneInvoke: 0
+    isMessage: 0
+    changeBoolValue: 0
+    addIntValue: 0
+    eventCamPositionNumber: 0
+  - index: 5
+    hide: 0
+    _type: 2
+    endNode: 0
+    _leftToRight: 1
+    previousNodesNumbers: 04000000
+    transformRect:
+      serializedVersion: 2
+      x: 949
+      y: 2
+      width: 150
+      height: 90
+    _colorInEditor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+    _leftPointOffset: {x: 0, y: 21}
+    character: {fileID: 0}
+    clip: {fileID: 0}
+    animType: 0
+    camPositionNumber: 0
+    replicText: 
+    _rightPointOffset: {x: 130, y: 21}
+    nextNodesNumbers: 06000000
+    _exitPointsOffset: []
+    condition: {fileID: 0}
+    positiveNumber: 0
+    negativeNumber: 0
+    checkType: 0
+    conditionNumber: 0
+    checkBoolValue: 0
+    checkIntValue: 0
+    _positiveExitPointOffset: {x: 0, y: 0}
+    _negativeExitPointOffset: {x: 0, y: 0}
+    reactorsNumbers: 00000000
+    messageText: 
+    eventTime: 0.7
+    changeCondition: 0
+    inSceneInvoke: 1
+    isMessage: 0
+    changeBoolValue: 0
+    addIntValue: 0
+    eventCamPositionNumber: 0
+  - index: 6
+    hide: 0
+    _type: 2
+    endNode: 0
+    _leftToRight: 1
+    previousNodesNumbers: 05000000
+    transformRect:
+      serializedVersion: 2
+      x: 1130
+      y: 0
+      width: 150
+      height: 90
+    _colorInEditor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+    _leftPointOffset: {x: 0, y: 21}
+    character: {fileID: 0}
+    clip: {fileID: 0}
+    animType: 0
+    camPositionNumber: 0
+    replicText: 
+    _rightPointOffset: {x: 130, y: 21}
+    nextNodesNumbers: 07000000
+    _exitPointsOffset: []
+    condition: {fileID: 0}
+    positiveNumber: 0
+    negativeNumber: 0
+    checkType: 0
+    conditionNumber: 0
+    checkBoolValue: 0
+    checkIntValue: 0
+    _positiveExitPointOffset: {x: 0, y: 0}
+    _negativeExitPointOffset: {x: 0, y: 0}
+    reactorsNumbers: 00000000
+    messageText: 
+    eventTime: 0.7
+    changeCondition: 0
+    inSceneInvoke: 1
+    isMessage: 0
+    changeBoolValue: 0
+    addIntValue: 0
+    eventCamPositionNumber: 0
+  - index: 7
+    hide: 0
+    _type: 0
+    endNode: 0
+    _leftToRight: 0
+    previousNodesNumbers: 06000000
+    transformRect:
+      serializedVersion: 2
+      x: 1131
+      y: 129
+      width: 150
+      height: 50
+    _colorInEditor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    _leftPointOffset: {x: 0, y: 21}
+    character: {fileID: 11400000, guid: 88ab9e4de68f6ae459559964f9b105b9, type: 2}
+    clip: {fileID: 8300000, guid: 1995687c12ae77f44b046aff81740d00, type: 3}
+    animType: 5
+    camPositionNumber: 1
+    replicText: "\u0427\u0442\u043E?!"
+    _rightPointOffset: {x: 130, y: 21}
+    nextNodesNumbers: 08000000
+    _exitPointsOffset: []
+    condition: {fileID: 0}
+    positiveNumber: 0
+    negativeNumber: 0
+    checkType: 0
+    conditionNumber: 0
+    checkBoolValue: 0
+    checkIntValue: 0
+    _positiveExitPointOffset: {x: 0, y: 0}
+    _negativeExitPointOffset: {x: 0, y: 0}
+    reactorsNumbers: 
+    messageText: 
+    eventTime: 0
+    changeCondition: 0
+    inSceneInvoke: 0
+    isMessage: 0
+    changeBoolValue: 0
+    addIntValue: 0
+    eventCamPositionNumber: 0
+  - index: 8
+    hide: 0
+    _type: 1
+    endNode: 0
+    _leftToRight: 0
+    previousNodesNumbers: 070000001c000000
+    transformRect:
+      serializedVersion: 2
+      x: 898
+      y: 148
+      width: 200
+      height: 94
+    _colorInEditor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    _leftPointOffset: {x: 0, y: 21}
+    character: {fileID: 11400000, guid: 763ffcfb3c28dfe4f87c41c22af45294, type: 2}
+    clip: {fileID: 0}
+    animType: 0
+    camPositionNumber: 0
+    replicText: 
+    _rightPointOffset: {x: 180, y: 21}
+    nextNodesNumbers: 090000000a0000000b000000
+    _exitPointsOffset:
+    - {x: 180, y: 21}
+    - {x: 180, y: 42}
+    - {x: 180, y: 63}
+    condition: {fileID: 0}
+    positiveNumber: 0
+    negativeNumber: 0
+    checkType: 0
+    conditionNumber: 0
+    checkBoolValue: 0
+    checkIntValue: 0
+    _positiveExitPointOffset: {x: 0, y: 0}
+    _negativeExitPointOffset: {x: 0, y: 0}
+    reactorsNumbers: 
+    messageText: 
+    eventTime: 0
+    changeCondition: 0
+    inSceneInvoke: 0
+    isMessage: 0
+    changeBoolValue: 0
+    addIntValue: 0
+    eventCamPositionNumber: 0
+  - index: 9
+    hide: 1
+    _type: 0
+    endNode: 0
+    _leftToRight: 1
+    previousNodesNumbers: 
+    transformRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 150
+      height: 50
+    _colorInEditor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    _leftPointOffset: {x: 0, y: 21}
+    character: {fileID: 11400000, guid: 763ffcfb3c28dfe4f87c41c22af45294, type: 2}
+    clip: {fileID: 8300000, guid: 758a96b2b66e6d142ada18e05bfb14ea, type: 3}
+    animType: 5
+    camPositionNumber: 0
+    replicText: "\u0427\u0442\u043E \u0437\u0430 \u0441\u0442\u0430\u043A\u0430\u043D\u0447\u0438\u043A
+      \u0441 \u043A\u043E\u0444\u0435?"
+    _rightPointOffset: {x: 130, y: 21}
+    nextNodesNumbers: 0c000000
+    _exitPointsOffset: []
+    condition: {fileID: 0}
+    positiveNumber: 0
+    negativeNumber: 0
+    checkType: 0
+    conditionNumber: 0
+    checkBoolValue: 0
+    checkIntValue: 0
+    _positiveExitPointOffset: {x: 0, y: 0}
+    _negativeExitPointOffset: {x: 0, y: 0}
+    reactorsNumbers: 
+    messageText: 
+    eventTime: 0
+    changeCondition: 0
+    inSceneInvoke: 0
+    isMessage: 0
+    changeBoolValue: 0
+    addIntValue: 0
+    eventCamPositionNumber: 0
+  - index: 10
+    hide: 1
+    _type: 0
+    endNode: 0
+    _leftToRight: 1
+    previousNodesNumbers: 
+    transformRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 150
+      height: 50
+    _colorInEditor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    _leftPointOffset: {x: 0, y: 21}
+    character: {fileID: 11400000, guid: 763ffcfb3c28dfe4f87c41c22af45294, type: 2}
+    clip: {fileID: 8300000, guid: cbaca69bd5760044a8bbec095da63b67, type: 3}
+    animType: 0
+    camPositionNumber: 0
+    replicText: "\u0422\u044B, \u0432\u0440\u043E\u0434\u0435, \u0447\u0442\u043E-\u0442\u043E
+      \u0435\u0449\u0451 \u0445\u043E\u0442\u0435\u043B\u0430 \u0441\u043A\u0430\u0437\u0430\u0442\u044C."
+    _rightPointOffset: {x: 130, y: 21}
+    nextNodesNumbers: 0d000000
+    _exitPointsOffset: []
+    condition: {fileID: 0}
+    positiveNumber: 0
+    negativeNumber: 0
+    checkType: 0
+    conditionNumber: 0
+    checkBoolValue: 0
+    checkIntValue: 0
+    _positiveExitPointOffset: {x: 0, y: 0}
+    _negativeExitPointOffset: {x: 0, y: 0}
+    reactorsNumbers: 
+    messageText: 
+    eventTime: 0
+    changeCondition: 0
+    inSceneInvoke: 0
+    isMessage: 0
+    changeBoolValue: 0
+    addIntValue: 0
+    eventCamPositionNumber: 0
+  - index: 11
+    hide: 1
+    _type: 0
+    endNode: 0
+    _leftToRight: 1
+    previousNodesNumbers: 
+    transformRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 150
+      height: 50
+    _colorInEditor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    _leftPointOffset: {x: 0, y: 21}
+    character: {fileID: 11400000, guid: 763ffcfb3c28dfe4f87c41c22af45294, type: 2}
+    clip: {fileID: 8300000, guid: 9a15486768c39074fb038c1ba945a579, type: 3}
+    animType: 5
+    camPositionNumber: 0
+    replicText: "\u0427\u0442\u043E \u0442\u0430\u043C \u043F\u043E \u043C\u0435\u043B\u0443?"
+    _rightPointOffset: {x: 130, y: 21}
+    nextNodesNumbers: 0e000000
+    _exitPointsOffset: []
+    condition: {fileID: 0}
+    positiveNumber: 0
+    negativeNumber: 0
+    checkType: 0
+    conditionNumber: 0
+    checkBoolValue: 0
+    checkIntValue: 0
+    _positiveExitPointOffset: {x: 0, y: 0}
+    _negativeExitPointOffset: {x: 0, y: 0}
+    reactorsNumbers: 
+    messageText: 
+    eventTime: 0
+    changeCondition: 0
+    inSceneInvoke: 0
+    isMessage: 0
+    changeBoolValue: 0
+    addIntValue: 0
+    eventCamPositionNumber: 0
+  - index: 12
+    hide: 0
+    _type: 0
+    endNode: 0
+    _leftToRight: 0
+    previousNodesNumbers: 09000000
+    transformRect:
+      serializedVersion: 2
+      x: 702
+      y: 104
+      width: 150
+      height: 50
+    _colorInEditor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    _leftPointOffset: {x: 0, y: 21}
+    character: {fileID: 11400000, guid: 0dedc155e0a6c7c4aacf4f090ae24879, type: 2}
+    clip: {fileID: 8300000, guid: 47d29fe859ef09c4cb969af1bba6a66d, type: 3}
+    animType: 0
+    camPositionNumber: 2
+    replicText: "\u041E\u0431\u044B\u0447\u043D\u044B\u0439 \u0434\u0432\u043E\u0439\u043D\u043E\u0439
+      \u044D\u0441\u043F\u0440\u0435\u0441\u0441\u043E. 400 \u043C\u0438\u043B\u043B\u0438\u043B\u0438\u0442\u0440\u043E\u0432.
+      \u0412 \u043F\u043B\u0430\u0441\u0442\u0438\u043A\u043E\u0432\u043E\u043C \u0441\u0442\u0430\u043A\u0430\u043D\u0447\u0438\u043A\u0435.
+      \u0422\u043E\u0447\u043D\u0435\u0435, \u0441\u0442\u0430\u043A\u0430\u043D\u0447\u0438\u043A
+      \u043F\u043E\u0447\u0442\u0438 \u043F\u0443\u0441\u0442\u043E\u0439. \u0412\u043B\u0430\u0434\u0435\u043B\u0435\u0446
+      \u0443\u0441\u043F\u0435\u043B \u0432\u0441\u0451 \u0432\u044B\u043F\u0438\u0442\u044C\u2026"
+    _rightPointOffset: {x: 130, y: 21}
+    nextNodesNumbers: 0f000000
+    _exitPointsOffset: []
+    condition: {fileID: 0}
+    positiveNumber: 0
+    negativeNumber: 0
+    checkType: 0
+    conditionNumber: 0
+    checkBoolValue: 0
+    checkIntValue: 0
+    _positiveExitPointOffset: {x: 0, y: 0}
+    _negativeExitPointOffset: {x: 0, y: 0}
+    reactorsNumbers: 
+    messageText: 
+    eventTime: 0
+    changeCondition: 0
+    inSceneInvoke: 0
+    isMessage: 0
+    changeBoolValue: 0
+    addIntValue: 0
+    eventCamPositionNumber: 0
+  - index: 13
+    hide: 0
+    _type: 0
+    endNode: 0
+    _leftToRight: 0
+    previousNodesNumbers: 0a000000
+    transformRect:
+      serializedVersion: 2
+      x: 701
+      y: 190
+      width: 150
+      height: 50
+    _colorInEditor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    _leftPointOffset: {x: 0, y: 21}
+    character: {fileID: 11400000, guid: 0dedc155e0a6c7c4aacf4f090ae24879, type: 2}
+    clip: {fileID: 8300000, guid: 2c74731adbda6264d8037501ddb08f00, type: 3}
+    animType: 1
+    camPositionNumber: 2
+    replicText: "\u042F \u043E\u0441\u043C\u043E\u0442\u0440\u0435\u043B\u0430 \u043D\u0430\u0440\u0438\u0441\u043E\u0432\u0430\u043D\u043D\u0443\u044E
+      \u0444\u0438\u0433\u0443\u0440\u0443. \u0422\u0430\u043A\u043E\u0435 \u0447\u0443\u0432\u0441\u0442\u0432\u043E,
+      \u043A\u0430\u043A \u0431\u0443\u0434\u0442\u043E \u0447\u0435\u043B\u043E\u0432\u0435\u043A
+      \u0448\u0451\u043B \u0438 \u0443\u043F\u0430\u043B \u043D\u0430 \u043C\u0435\u0441\u0442\u0435."
+    _rightPointOffset: {x: 130, y: 21}
+    nextNodesNumbers: 10000000
+    _exitPointsOffset: []
+    condition: {fileID: 0}
+    positiveNumber: 0
+    negativeNumber: 0
+    checkType: 0
+    conditionNumber: 0
+    checkBoolValue: 0
+    checkIntValue: 0
+    _positiveExitPointOffset: {x: 0, y: 0}
+    _negativeExitPointOffset: {x: 0, y: 0}
+    reactorsNumbers: 
+    messageText: 
+    eventTime: 0
+    changeCondition: 0
+    inSceneInvoke: 0
+    isMessage: 0
+    changeBoolValue: 0
+    addIntValue: 0
+    eventCamPositionNumber: 0
+  - index: 14
+    hide: 0
+    _type: 0
+    endNode: 0
+    _leftToRight: 0
+    previousNodesNumbers: 0b000000
+    transformRect:
+      serializedVersion: 2
+      x: 882
+      y: 286
+      width: 150
+      height: 50
+    _colorInEditor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    _leftPointOffset: {x: 0, y: 21}
+    character: {fileID: 11400000, guid: 0dedc155e0a6c7c4aacf4f090ae24879, type: 2}
+    clip: {fileID: 8300000, guid: 7bc39e7303afd1e4187dfc5f10064fd2, type: 3}
+    animType: 0
+    camPositionNumber: 2
+    replicText: "\u041D\u0430\u0440\u0438\u0441\u043E\u0432\u0430\u043D\u043E \u043E\u0431\u044B\u0447\u043D\u044B\u043C
+      \u043C\u0435\u043B\u043A\u043E\u043C. \u0422\u0430\u043A\u0438\u0435 \u0434\u0435\u043B\u0430\u044E\u0442
+      \u043D\u0430 \u0442\u0440\u0451\u0445 \u0444\u0430\u0431\u0440\u0438\u043A\u0430\u0445
+      \u0432 \u0433\u043E\u0440\u043E\u0434\u0435. \u041F\u043E\u0441\u0442\u0430\u0432\u043B\u044F\u044E\u0442
+      \u0432 98 \u043C\u0430\u0433\u0430\u0437\u0438\u043D\u043E\u0432. \u041A\u0443\u043F\u0438\u0442\u044C
+      \u043C\u043E\u0436\u0435\u0442 \u043A\u0442\u043E \u0443\u0433\u043E\u0434\u043D\u043E."
+    _rightPointOffset: {x: 130, y: 21}
+    nextNodesNumbers: 11000000
+    _exitPointsOffset: []
+    condition: {fileID: 0}
+    positiveNumber: 0
+    negativeNumber: 0
+    checkType: 0
+    conditionNumber: 0
+    checkBoolValue: 0
+    checkIntValue: 0
+    _positiveExitPointOffset: {x: 0, y: 0}
+    _negativeExitPointOffset: {x: 0, y: 0}
+    reactorsNumbers: 
+    messageText: 
+    eventTime: 0
+    changeCondition: 0
+    inSceneInvoke: 0
+    isMessage: 0
+    changeBoolValue: 0
+    addIntValue: 0
+    eventCamPositionNumber: 0
+  - index: 15
+    hide: 0
+    _type: 2
+    endNode: 0
+    _leftToRight: 0
+    previousNodesNumbers: 0c000000
+    transformRect:
+      serializedVersion: 2
+      x: 515.5
+      y: 71
+      width: 150
+      height: 90
+    _colorInEditor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+    _leftPointOffset: {x: 0, y: 21}
+    character: {fileID: 0}
+    clip: {fileID: 0}
+    animType: 0
+    camPositionNumber: 0
+    replicText: 
+    _rightPointOffset: {x: 130, y: 21}
+    nextNodesNumbers: 18000000
+    _exitPointsOffset: []
+    condition: {fileID: 11400000, guid: deadd4a5f7753494583c4f084f2afb53, type: 2}
+    positiveNumber: 0
+    negativeNumber: 0
+    checkType: 0
+    conditionNumber: 0
+    checkBoolValue: 0
+    checkIntValue: 0
+    _positiveExitPointOffset: {x: 0, y: 0}
+    _negativeExitPointOffset: {x: 0, y: 0}
+    reactorsNumbers: 
+    messageText: "\u041F\u0440\u0435\u0441\u0442\u0443\u043F\u043D\u0438\u043A \u043C\u043E\u0433
+      \u043F\u0438\u0442\u044C \u043A\u043E\u0444\u0435."
+    eventTime: 0
+    changeCondition: 1
+    inSceneInvoke: 0
+    isMessage: 1
+    changeBoolValue: 0
+    addIntValue: 1
+    eventCamPositionNumber: 0
+  - index: 16
+    hide: 0
+    _type: 2
+    endNode: 0
+    _leftToRight: 0
+    previousNodesNumbers: 0d000000
+    transformRect:
+      serializedVersion: 2
+      x: 506.5
+      y: 166
+      width: 150
+      height: 90
+    _colorInEditor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+    _leftPointOffset: {x: 0, y: 21}
+    character: {fileID: 0}
+    clip: {fileID: 0}
+    animType: 0
+    camPositionNumber: 0
+    replicText: 
+    _rightPointOffset: {x: 130, y: 21}
+    nextNodesNumbers: 15000000
+    _exitPointsOffset: []
+    condition: {fileID: 11400000, guid: deadd4a5f7753494583c4f084f2afb53, type: 2}
+    positiveNumber: 0
+    negativeNumber: 0
+    checkType: 0
+    conditionNumber: 0
+    checkBoolValue: 0
+    checkIntValue: 0
+    _positiveExitPointOffset: {x: 0, y: 0}
+    _negativeExitPointOffset: {x: 0, y: 0}
+    reactorsNumbers: 
+    messageText: "\u041F\u043E\u0437\u0430 \u0444\u0438\u0433\u0443\u0440\u044B \u043D\u0435\u0435\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043D\u043D\u0430\u044F.
+      \u0427\u0435\u043B\u043E\u0432\u0435\u043A \u043E\u0442\u043A\u043B\u044E\u0447\u0438\u043B\u0441\u044F
+      \u043D\u0430 \u043C\u0435\u0441\u0442\u0435."
+    eventTime: 0
+    changeCondition: 1
+    inSceneInvoke: 0
+    isMessage: 1
+    changeBoolValue: 0
+    addIntValue: 1
+    eventCamPositionNumber: 0
+  - index: 17
+    hide: 0
+    _type: 0
+    endNode: 0
+    _leftToRight: 0
+    previousNodesNumbers: 0e000000
+    transformRect:
+      serializedVersion: 2
+      x: 699
+      y: 286.5
+      width: 150
+      height: 50
+    _colorInEditor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    _leftPointOffset: {x: 0, y: 21}
+    character: {fileID: 11400000, guid: 763ffcfb3c28dfe4f87c41c22af45294, type: 2}
+    clip: {fileID: 8300000, guid: d5098b01c235df749b32767c5344234d, type: 3}
+    animType: 3
+    camPositionNumber: 0
+    replicText: "\u0422\u0443\u043F\u0438\u043A\u043E\u0432\u0430\u044F \u0432\u0435\u0442\u0432\u044C
+      \u0440\u0430\u0441\u0441\u043B\u0435\u0434\u043E\u0432\u0430\u043D\u0438\u044F."
+    _rightPointOffset: {x: 130, y: 21}
+    nextNodesNumbers: 12000000
+    _exitPointsOffset: []
+    condition: {fileID: 0}
+    positiveNumber: 0
+    negativeNumber: 0
+    checkType: 0
+    conditionNumber: 0
+    checkBoolValue: 0
+    checkIntValue: 0
+    _positiveExitPointOffset: {x: 0, y: 0}
+    _negativeExitPointOffset: {x: 0, y: 0}
+    reactorsNumbers: 
+    messageText: 
+    eventTime: 0
+    changeCondition: 0
+    inSceneInvoke: 0
+    isMessage: 0
+    changeBoolValue: 0
+    addIntValue: 0
+    eventCamPositionNumber: 0
+  - index: 18
+    hide: 0
+    _type: 0
+    endNode: 0
+    _leftToRight: 0
+    previousNodesNumbers: 11000000
+    transformRect:
+      serializedVersion: 2
+      x: 516
+      y: 290.5
+      width: 150
+      height: 50
+    _colorInEditor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    _leftPointOffset: {x: 0, y: 21}
+    character: {fileID: 11400000, guid: 0dedc155e0a6c7c4aacf4f090ae24879, type: 2}
+    clip: {fileID: 8300000, guid: 6ba8cca5777212842aa8d4789c7331ed, type: 3}
+    animType: 5
+    camPositionNumber: 2
+    replicText: "\u0412\u043E\u0442 \u0442\u043E\u043B\u044C\u043A\u043E\u2026 \u043F\u043E\u0447\u0435\u043C\u0443
+      \u0432\u044B\u0431\u0440\u0430\u043B\u0438 \u044D\u0442\u043E\u0442 \u0446\u0432\u0435\u0442?
+      \u0412 \u043D\u0430\u0431\u043E\u0440\u0435 \u043E\u0431\u044B\u0447\u043D\u043E
+      \u043A\u0443\u0447\u0430 \u0434\u0440\u0443\u0433\u0438\u0445 \u044F\u0440\u043A\u0438\u0445
+      \u0446\u0432\u0435\u0442\u043E\u0432. \u042F \u0431\u044B \u0432\u0437\u044F\u043B\u0430
+      \u0437\u0435\u043B\u0451\u043D\u044B\u0439."
+    _rightPointOffset: {x: 130, y: 21}
+    nextNodesNumbers: 13000000
+    _exitPointsOffset: []
+    condition: {fileID: 0}
+    positiveNumber: 0
+    negativeNumber: 0
+    checkType: 0
+    conditionNumber: 0
+    checkBoolValue: 0
+    checkIntValue: 0
+    _positiveExitPointOffset: {x: 0, y: 0}
+    _negativeExitPointOffset: {x: 0, y: 0}
+    reactorsNumbers: 
+    messageText: 
+    eventTime: 0
+    changeCondition: 0
+    inSceneInvoke: 0
+    isMessage: 0
+    changeBoolValue: 0
+    addIntValue: 0
+    eventCamPositionNumber: 0
+  - index: 19
+    hide: 0
+    _type: 0
+    endNode: 0
+    _leftToRight: 1
+    previousNodesNumbers: 12000000
+    transformRect:
+      serializedVersion: 2
+      x: 620
+      y: 356.5
+      width: 150
+      height: 50
+    _colorInEditor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    _leftPointOffset: {x: 0, y: 21}
+    character: {fileID: 11400000, guid: 88ab9e4de68f6ae459559964f9b105b9, type: 2}
+    clip: {fileID: 8300000, guid: 59d8e82fad832f14997199c0535c996f, type: 3}
+    animType: 1
+    camPositionNumber: 1
+    replicText: "\u0410\u0433\u0430! \u0410 \u043F\u043E\u0442\u043E\u043C \u0442\u0435\u0431\u044F
+      \u0431\u044B \u043F\u043E\u0441\u0430\u0434\u0438\u043B\u0438 \u0437\u0430 \u043F\u043E\u0440\u0447\u0443
+      \u0433\u043E\u0440\u043E\u0434\u0441\u043A\u043E\u0433\u043E \u0438\u043C\u0443\u0449\u0435\u0441\u0442\u0432\u0430."
+    _rightPointOffset: {x: 130, y: 21}
+    nextNodesNumbers: 14000000
+    _exitPointsOffset: []
+    condition: {fileID: 0}
+    positiveNumber: 0
+    negativeNumber: 0
+    checkType: 0
+    conditionNumber: 0
+    checkBoolValue: 0
+    checkIntValue: 0
+    _positiveExitPointOffset: {x: 0, y: 0}
+    _negativeExitPointOffset: {x: 0, y: 0}
+    reactorsNumbers: 
+    messageText: 
+    eventTime: 0
+    changeCondition: 0
+    inSceneInvoke: 0
+    isMessage: 0
+    changeBoolValue: 0
+    addIntValue: 0
+    eventCamPositionNumber: 0
+  - index: 20
+    hide: 0
+    _type: 0
+    endNode: 0
+    _leftToRight: 1
+    previousNodesNumbers: 13000000
+    transformRect:
+      serializedVersion: 2
+      x: 790
+      y: 367.5
+      width: 150
+      height: 50
+    _colorInEditor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    _leftPointOffset: {x: 0, y: 21}
+    character: {fileID: 11400000, guid: 0dedc155e0a6c7c4aacf4f090ae24879, type: 2}
+    clip: {fileID: 8300000, guid: 191c62204e83401419f5a61f5705daf9, type: 3}
+    animType: 5
+    camPositionNumber: 2
+    replicText: "\u041D\u0438\u0447\u0435\u0433\u043E \u0442\u044B \u043D\u0435 \u043F\u043E\u043D\u0438\u043C\u0430\u0435\u0448\u044C.
+      \u0412\u043E \u043C\u043D\u0435 \u0436\u0438\u0432\u0451\u0442 \u0445\u0443\u0434\u043E\u0436\u043D\u0438\u043A!"
+    _rightPointOffset: {x: 130, y: 21}
+    nextNodesNumbers: 19000000
+    _exitPointsOffset: []
+    condition: {fileID: 0}
+    positiveNumber: 0
+    negativeNumber: 0
+    checkType: 0
+    conditionNumber: 0
+    checkBoolValue: 0
+    checkIntValue: 0
+    _positiveExitPointOffset: {x: 0, y: 0}
+    _negativeExitPointOffset: {x: 0, y: 0}
+    reactorsNumbers: 
+    messageText: 
+    eventTime: 0
+    changeCondition: 0
+    inSceneInvoke: 0
+    isMessage: 0
+    changeBoolValue: 0
+    addIntValue: 0
+    eventCamPositionNumber: 0
+  - index: 21
+    hide: 0
+    _type: 3
+    endNode: 0
+    _leftToRight: 1
+    previousNodesNumbers: 1000000018000000
+    transformRect:
+      serializedVersion: 2
+      x: 372
+      y: 510.5
+      width: 180
+      height: 65
+    _colorInEditor: {r: 0, g: 1, b: 1, a: 1}
+    _leftPointOffset: {x: 0, y: 21}
+    character: {fileID: 0}
+    clip: {fileID: 0}
+    animType: 0
+    camPositionNumber: 0
+    replicText: 
+    _rightPointOffset: {x: 160, y: 21}
+    nextNodesNumbers: 1600000017000000
+    _exitPointsOffset: []
+    condition: {fileID: 11400000, guid: deadd4a5f7753494583c4f084f2afb53, type: 2}
+    positiveNumber: 0
+    negativeNumber: 1
+    checkType: 0
+    conditionNumber: 0
+    checkBoolValue: 0
+    checkIntValue: 1
+    _positiveExitPointOffset: {x: 150, y: 21}
+    _negativeExitPointOffset: {x: 150, y: 42}
+    reactorsNumbers: 
+    messageText: 
+    eventTime: 0
+    changeCondition: 0
+    inSceneInvoke: 0
+    isMessage: 0
+    changeBoolValue: 0
+    addIntValue: 0
+    eventCamPositionNumber: 0
+  - index: 22
+    hide: 0
+    _type: 0
+    endNode: 0
+    _leftToRight: 1
+    previousNodesNumbers: 15000000
+    transformRect:
+      serializedVersion: 2
+      x: 667
+      y: 465.5
+      width: 150
+      height: 50
+    _colorInEditor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    _leftPointOffset: {x: 0, y: 21}
+    character: {fileID: 11400000, guid: 763ffcfb3c28dfe4f87c41c22af45294, type: 2}
+    clip: {fileID: 8300000, guid: e84056baefb1344449a384c30866904e, type: 3}
+    animType: 5
+    camPositionNumber: 0
+    replicText: "\u041D\u0443, \u043C\u043E\u0436\u0435\u0442, \u043E\u043D \u0443\u0441\u0442\u0430\u043B?"
+    _rightPointOffset: {x: 130, y: 21}
+    nextNodesNumbers: 19000000
+    _exitPointsOffset: []
+    condition: {fileID: 0}
+    positiveNumber: 0
+    negativeNumber: 0
+    checkType: 0
+    conditionNumber: 0
+    checkBoolValue: 0
+    checkIntValue: 0
+    _positiveExitPointOffset: {x: 0, y: 0}
+    _negativeExitPointOffset: {x: 0, y: 0}
+    reactorsNumbers: 
+    messageText: 
+    eventTime: 0
+    changeCondition: 0
+    inSceneInvoke: 0
+    isMessage: 0
+    changeBoolValue: 0
+    addIntValue: 0
+    eventCamPositionNumber: 0
+  - index: 23
+    hide: 0
+    _type: 0
+    endNode: 0
+    _leftToRight: 1
+    previousNodesNumbers: 15000000
+    transformRect:
+      serializedVersion: 2
+      x: 680
+      y: 586.5
+      width: 150
+      height: 50
+    _colorInEditor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    _leftPointOffset: {x: 0, y: 21}
+    character: {fileID: 11400000, guid: 763ffcfb3c28dfe4f87c41c22af45294, type: 2}
+    clip: {fileID: 8300000, guid: d0aaefd0d585e644aad980aa4e932787, type: 3}
+    animType: 5
+    camPositionNumber: 0
+    replicText: "\u041D\u0443, \u043C\u043E\u0436\u0435\u0442, \u043E\u043D \u041E\u0427\u0415\u041D\u042C
+      \u0443\u0441\u0442\u0430\u043B?"
+    _rightPointOffset: {x: 130, y: 21}
+    nextNodesNumbers: 19000000
+    _exitPointsOffset: []
+    condition: {fileID: 0}
+    positiveNumber: 0
+    negativeNumber: 0
+    checkType: 0
+    conditionNumber: 0
+    checkBoolValue: 0
+    checkIntValue: 0
+    _positiveExitPointOffset: {x: 0, y: 0}
+    _negativeExitPointOffset: {x: 0, y: 0}
+    reactorsNumbers: 
+    messageText: 
+    eventTime: 0
+    changeCondition: 0
+    inSceneInvoke: 0
+    isMessage: 0
+    changeBoolValue: 0
+    addIntValue: 0
+    eventCamPositionNumber: 0
+  - index: 24
+    hide: 0
+    _type: 0
+    endNode: 0
+    _leftToRight: 0
+    previousNodesNumbers: 0f000000
+    transformRect:
+      serializedVersion: 2
+      x: 327
+      y: 145.49988
+      width: 150
+      height: 50
+    _colorInEditor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    _leftPointOffset: {x: 0, y: 21}
+    character: {fileID: 11400000, guid: 0dedc155e0a6c7c4aacf4f090ae24879, type: 2}
+    clip: {fileID: 8300000, guid: d6588f67a3846d8458cfc8745ff0427c, type: 3}
+    animType: 0
+    camPositionNumber: 2
+    replicText: "\u041D\u0443 \u0432\u043E\u0442. \u0422\u0435\u043F\u0435\u0440\u044C
+      \u044F \u0445\u043E\u0447\u0443 \u043A\u043E\u0444\u0435..."
+    _rightPointOffset: {x: 130, y: 21}
+    nextNodesNumbers: 15000000
+    _exitPointsOffset: []
+    condition: {fileID: 0}
+    positiveNumber: 0
+    negativeNumber: 0
+    checkType: 0
+    conditionNumber: 0
+    checkBoolValue: 0
+    checkIntValue: 0
+    _positiveExitPointOffset: {x: 0, y: 0}
+    _negativeExitPointOffset: {x: 0, y: 0}
+    reactorsNumbers: 
+    messageText: 
+    eventTime: 0
+    changeCondition: 0
+    inSceneInvoke: 0
+    isMessage: 0
+    changeBoolValue: 0
+    addIntValue: 0
+    eventCamPositionNumber: 0
+  - index: 25
+    hide: 0
+    _type: 1
+    endNode: 0
+    _leftToRight: 1
+    previousNodesNumbers: 160000001700000014000000
+    transformRect:
+      serializedVersion: 2
+      x: 1027
+      y: 431.5
+      width: 200
+      height: 94
+    _colorInEditor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    _leftPointOffset: {x: 0, y: 21}
+    character: {fileID: 11400000, guid: 88ab9e4de68f6ae459559964f9b105b9, type: 2}
+    clip: {fileID: 0}
+    animType: 0
+    camPositionNumber: 1
+    replicText: 
+    _rightPointOffset: {x: 180, y: 21}
+    nextNodesNumbers: 1a0000001b0000001c000000
+    _exitPointsOffset:
+    - {x: 180, y: 21}
+    - {x: 180, y: 42}
+    - {x: 180, y: 63}
+    condition: {fileID: 0}
+    positiveNumber: 0
+    negativeNumber: 0
+    checkType: 0
+    conditionNumber: 0
+    checkBoolValue: 0
+    checkIntValue: 0
+    _positiveExitPointOffset: {x: 0, y: 0}
+    _negativeExitPointOffset: {x: 0, y: 0}
+    reactorsNumbers: 
+    messageText: 
+    eventTime: 0
+    changeCondition: 0
+    inSceneInvoke: 0
+    isMessage: 0
+    changeBoolValue: 0
+    addIntValue: 0
+    eventCamPositionNumber: 0
+  - index: 26
+    hide: 1
+    _type: 0
+    endNode: 0
+    _leftToRight: 1
+    previousNodesNumbers: 
+    transformRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 150
+      height: 50
+    _colorInEditor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    _leftPointOffset: {x: 0, y: 21}
+    character: {fileID: 11400000, guid: 88ab9e4de68f6ae459559964f9b105b9, type: 2}
+    clip: {fileID: 8300000, guid: 92f9ee8be1820a24381aeefbd5e23b11, type: 3}
+    animType: 1
+    camPositionNumber: 1
+    replicText: "\u0421\u043F\u0430\u0441\u0438\u0431\u043E, \u0410\u0441\u0442\u044F.
+      \u041D\u0430\u043C \u043F\u043E\u0440\u0430."
+    _rightPointOffset: {x: 130, y: 21}
+    nextNodesNumbers: 1d000000
+    _exitPointsOffset: []
+    condition: {fileID: 0}
+    positiveNumber: 0
+    negativeNumber: 0
+    checkType: 0
+    conditionNumber: 0
+    checkBoolValue: 0
+    checkIntValue: 0
+    _positiveExitPointOffset: {x: 0, y: 0}
+    _negativeExitPointOffset: {x: 0, y: 0}
+    reactorsNumbers: 
+    messageText: 
+    eventTime: 0
+    changeCondition: 0
+    inSceneInvoke: 0
+    isMessage: 0
+    changeBoolValue: 0
+    addIntValue: 0
+    eventCamPositionNumber: 0
+  - index: 27
+    hide: 1
+    _type: 0
+    endNode: 0
+    _leftToRight: 1
+    previousNodesNumbers: 
+    transformRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 150
+      height: 50
+    _colorInEditor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    _leftPointOffset: {x: 0, y: 21}
+    character: {fileID: 0}
+    clip: {fileID: 0}
+    animType: 0
+    camPositionNumber: 0
+    replicText: 
+    _rightPointOffset: {x: 130, y: 21}
+    nextNodesNumbers: 
+    _exitPointsOffset: []
+    condition: {fileID: 0}
+    positiveNumber: 0
+    negativeNumber: 0
+    checkType: 0
+    conditionNumber: 0
+    checkBoolValue: 0
+    checkIntValue: 0
+    _positiveExitPointOffset: {x: 0, y: 0}
+    _negativeExitPointOffset: {x: 0, y: 0}
+    reactorsNumbers: 
+    messageText: 
+    eventTime: 0
+    changeCondition: 0
+    inSceneInvoke: 0
+    isMessage: 0
+    changeBoolValue: 0
+    addIntValue: 0
+    eventCamPositionNumber: 0
+  - index: 28
+    hide: 1
+    _type: 0
+    endNode: 0
+    _leftToRight: 1
+    previousNodesNumbers: 
+    transformRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 150
+      height: 50
+    _colorInEditor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    _leftPointOffset: {x: 0, y: 21}
+    character: {fileID: 11400000, guid: 88ab9e4de68f6ae459559964f9b105b9, type: 2}
+    clip: {fileID: 8300000, guid: eaae23e08549b98468fc60fca82edf4b, type: 3}
+    animType: 2
+    camPositionNumber: 1
+    replicText: "\u0423 \u043D\u0430\u0441 \u0435\u0441\u0442\u044C \u0435\u0449\u0451
+      \u043F\u0430\u0440\u0430 \u0432\u043E\u043F\u0440\u043E\u0441\u0438\u043A\u043E\u0432."
+    _rightPointOffset: {x: 130, y: 21}
+    nextNodesNumbers: 08000000
+    _exitPointsOffset: []
+    condition: {fileID: 0}
+    positiveNumber: 0
+    negativeNumber: 0
+    checkType: 0
+    conditionNumber: 0
+    checkBoolValue: 0
+    checkIntValue: 0
+    _positiveExitPointOffset: {x: 0, y: 0}
+    _negativeExitPointOffset: {x: 0, y: 0}
+    reactorsNumbers: 
+    messageText: 
+    eventTime: 0
+    changeCondition: 0
+    inSceneInvoke: 0
+    isMessage: 0
+    changeBoolValue: 0
+    addIntValue: 0
+    eventCamPositionNumber: 0
+  - index: 29
+    hide: 0
+    _type: 2
+    endNode: 0
+    _leftToRight: 1
+    previousNodesNumbers: 1a000000
+    transformRect:
+      serializedVersion: 2
+      x: 1297
+      y: 448.49988
+      width: 150
+      height: 90
+    _colorInEditor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+    _leftPointOffset: {x: 0, y: 21}
+    character: {fileID: 0}
+    clip: {fileID: 0}
+    animType: 0
+    camPositionNumber: 0
+    replicText: 
+    _rightPointOffset: {x: 130, y: 21}
+    nextNodesNumbers: 1e000000
+    _exitPointsOffset: []
+    condition: {fileID: 11400000, guid: 775e03d85ce981248bf08ead13dfd89f, type: 2}
+    positiveNumber: 0
+    negativeNumber: 0
+    checkType: 0
+    conditionNumber: 0
+    checkBoolValue: 0
+    checkIntValue: 0
+    _positiveExitPointOffset: {x: 0, y: 0}
+    _negativeExitPointOffset: {x: 0, y: 0}
+    reactorsNumbers: 01000000
+    messageText: "\u0412\u044B \u0438\u0437\u0443\u0447\u0438\u043B\u0438 \u0443\u043B\u0438\u043A\u0438."
+    eventTime: 0
+    changeCondition: 1
+    inSceneInvoke: 1
+    isMessage: 1
+    changeBoolValue: 1
+    addIntValue: 0
+    eventCamPositionNumber: 2
+  - index: 30
+    hide: 0
+    _type: 0
+    endNode: 1
+    _leftToRight: 1
+    previousNodesNumbers: 1d000000
+    transformRect:
+      serializedVersion: 2
+      x: 1490.5
+      y: 459.00024
+      width: 150
+      height: 50
+    _colorInEditor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    _leftPointOffset: {x: 0, y: 21}
+    character: {fileID: 11400000, guid: 0dedc155e0a6c7c4aacf4f090ae24879, type: 2}
+    clip: {fileID: 8300000, guid: 3767c3206f0b12b44a280b3ac9cdaf53, type: 3}
+    animType: 0
+    camPositionNumber: 2
+    replicText: "\u041F\u043E\u043A\u0430!"
+    _rightPointOffset: {x: 130, y: 21}
+    nextNodesNumbers: 
+    _exitPointsOffset: []
+    condition: {fileID: 0}
+    positiveNumber: 0
+    negativeNumber: 0
+    checkType: 0
+    conditionNumber: 0
+    checkBoolValue: 0
+    checkIntValue: 0
+    _positiveExitPointOffset: {x: 0, y: 0}
+    _negativeExitPointOffset: {x: 0, y: 0}
+    reactorsNumbers: 
+    messageText: 
+    eventTime: 0
+    changeCondition: 0
+    inSceneInvoke: 0
+    isMessage: 0
+    changeBoolValue: 0
+    addIntValue: 0
+    eventCamPositionNumber: 0
